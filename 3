@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main() {
+ int x;
+  
+  printf("Введіть число x: ");
+  scanf("%d", &x);
+  if (x == 0)
+    printf("Число дорівнює 0");
+  else if (x > 0)
+    if (x % 2 == 0)
+      printf("Число додатнє і парне");
+    else
+      printf("Число є не парним і додатьнім");
+  else
+    if (x % 2 == 0)
+      printf("Парне і відємне");
+    else
+      printf("Не парне і відємне");
+    
+        
+    
+  return 0;
+}
