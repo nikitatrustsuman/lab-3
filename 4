@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int main() {
+    int nomer;
+    char* ceria;
+    char* premyera;
+
+    printf("Введіть номер серії (1-9): ");
+    scanf("%d", &nomer);
+
+    switch (nomer) {
+        case 1:
+            ceria = "El roomie";
+            premyera = "6 листопада 2020";
+            break;
+        case 2:
+            ceria = "El día que no fue";
+            premyera = "6 листопада 2020";
+            break;
+        case 3:
+            ceria = "Yo puedo sola";
+            premyera = "6 листопада 2020";
+            break;
+        case 4: 
+            ceria = "Corazones rotos";
+            premyera = "6 листопада 2020";
+            break;
+        case 5:
+            ceria = "Amigos con derechos";
+            premyera = "6 листопада 2020";
+            break;
+        case 6:
+            ceria = "¿Celosa yo?";
+            premyera = "6 листопада 2020";
+            break;
+        case 7:
+            ceria = "El beso";
+            premyera = "6 листопада 2020";
+            break;
+        case 8:
+            ceria = "La incómoda verdad";
+            premyera = "6 листопада 2020";
+            break;
+        case 9:
+            ceria = "Lo que pasó anoche";
+            premyera = "6 листопада 2020";
+            break;
+        default:
+            printf("Невірний номер серії\n");
+            return 1;
+    }
+
+    printf("Назва серії: %s\n", ceria);
+    printf("Дата прем'єрного показу: %s\n", premyera);
+
+    return 0;
+}
